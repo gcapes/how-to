@@ -35,6 +35,10 @@ pip install pre-commit
 pre-commit install
 ```
 
+I found the pre-commit workflow above on a [blog](https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/) and it works like this:
+
+![black then flake8 diagram](https://ljvmiranda921.github.io/assets/png/tuts/precommit_pipeline.png)
+
 ## Non-standard configuration of flake8
 
 I've set flake8 to ignore long line errors in `.pre-commit-config.yaml`, because black doesn't format comment lines which then trigger flake8 errors.
