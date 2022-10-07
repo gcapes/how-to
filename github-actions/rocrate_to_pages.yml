@@ -1,0 +1,22 @@
+name: RoCrate to GitHub Pages
+on:
+  push:
+    branches:
+      - test
+  pull_request:
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-20.04
+    concurrency: ci-${{github.ref}}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build RO Crate Preview
+        uses: ./ # Uses an action in the root directory
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .
+          branch: gh-pages
