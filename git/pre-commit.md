@@ -35,7 +35,7 @@ pip install pre-commit
 pre-commit install
 ```
 
-This installs the tools in an environment at `~/.cache/pre-commit/`.
+This installs the hook at `.git/hooks/pre-commit`, and the tools in an environment at `~/.cache/pre-commit/`.
 
 I found the pre-commit workflow above on a [blog](https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/) and it works like this:
 
