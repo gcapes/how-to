@@ -39,7 +39,7 @@ This installs the hook at `.git/hooks/pre-commit`, and the tools in an environme
 
 I found the pre-commit workflow above on a [blog](https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/) and it works like this:
 
-![black then flake8 diagram](https://ljvmiranda921.github.io/assets/png/tuts/precommit_pipeline.png)
+[![black then flake8 diagram](https://ljvmiranda921.github.io/assets/png/tuts/precommit_pipeline.png)](https://ljvmiranda921.github.io/assets/png/tuts/precommit_pipeline.png)
 
 ## Non-standard configuration of flake8
 
