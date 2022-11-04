@@ -12,7 +12,7 @@ Using jupytext, you can [pair a notebook](https://github.com/mwouts/jupytext#pai
 
 This keeps a jupyter notebook in sync with a script and vice-versa. 
 
-Use the 'light script' option for a clean, minimalist approach. 
+Use the 'light script' option, and uncheck 'include metadata' for a clean, minimalist approach. 
 
 You can then work either with the script or the notebook, and the other will be updated when you save.
 
