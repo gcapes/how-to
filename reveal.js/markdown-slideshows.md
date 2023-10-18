@@ -2,6 +2,8 @@
 
 I think this is mainly aimed at an audience who are comfortable writing html. However, I've figured out from a few sources how to create a reveal.js slideshow from markdown using pandoc, and how to edit a css file to customise the theme.
 
+[TL;DR](#tldr-just-use-the---css-option)
+
 ## Using defaults
 
 You need [pandoc](https://pandoc.org/installing.html) installed, and a markdown file. 
