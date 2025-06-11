@@ -17,3 +17,4 @@ A repo to record learning and useful tools
 
 - [black](https://black.readthedocs.io/en/stable/) - a python formatter
 - [mypy](https://www.mypy-lang.org/) - static type checker
+- [realpython tutorial](https://realpython.com/python-type-checking/)
