@@ -5,6 +5,7 @@ A repo to record learning and useful tools
 ## Presentations from markdown
 
 - [reveal.js](./reveal.js/markdown-slideshows.md) an html framework - a bit fiddly to set up
+- [quarto + reveal.js](https://quarto.org/docs/presentations/revealjs/) - we have a [repo template](https://github.com/UoMResearchIT/Quarto-RevealJS-R) that publishes to gh-pages
 - [Marp](https://marp.app/) easier to set up and use than reveal.js, with sensible defaults
 
 ## Documentation
