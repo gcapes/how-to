@@ -3,16 +3,16 @@
 ## The problem
 
 Jupyter notebooks are a pain to version control, because they contain input cells,
-output cells, and extra meta-data like cell execution count, venv details etc, 
+output cells, and extra meta-data like cell execution count, venv details etc,
 when all we're really interested in is the content of the input cells.
 
 ## How jupytext solves the problem
 
 Using jupytext, you can [pair a notebook](https://github.com/mwouts/jupytext#paired-notebooks) with a (light) script from the jupter-notebook menu.
 
-This keeps a jupyter notebook in sync with a script and vice-versa. 
+This keeps a jupyter notebook in sync with a script and vice-versa.
 
-Use the 'light script' option, and uncheck 'include metadata' for a clean, minimalist approach. 
+Use the 'light script' option, and uncheck 'include metadata' for a clean, minimalist approach.
 
 You can then work either with the script or the notebook, and the other will be updated when you save.
 

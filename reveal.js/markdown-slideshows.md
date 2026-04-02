@@ -6,12 +6,12 @@ I think this is mainly aimed at an audience who are comfortable writing html. Ho
 
 ## Using defaults
 
-You need [pandoc](https://pandoc.org/installing.html) installed, and a markdown file. 
+You need [pandoc](https://pandoc.org/installing.html) installed, and a markdown file.
 
-Basic compilation uses 
+Basic compilation uses
 
 ```
-pandoc -t revealjs -s -o index.html slides.md 
+pandoc -t revealjs -s -o index.html slides.md
 ```
 
 This compiles using the current version of reveal.js on their server, and the default theme. The fonts are too big and it looks silly, so we'll need to download a copy of reveal.js and make a custom theme.

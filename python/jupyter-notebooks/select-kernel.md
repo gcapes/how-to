@@ -6,7 +6,7 @@
 
 ```shell
 python -m venv venv
-source venv/bin/activate 
+source venv/bin/activate
 pip install jupyter
 ```
 
@@ -14,7 +14,7 @@ pip install jupyter
 
 ```shell
 python -m venv venv
-source venv/bin/activate 
+source venv/bin/activate
 pip install ipykernel
 python -m ipykernel install --user --name myotherenv --display-name "Python (myotherenv)"
 ```
@@ -26,5 +26,3 @@ Installed kernelspec myotherenv in /home/mbexegc2/.local/share/jupyter/kernels/m
 This creates a new directory in `~/.local/share` for the environment.
 
 Now, go back to your first environment, start `jupyter-notebook`  and you should have the option to access the 'myotherenv' kernel.
-
-
