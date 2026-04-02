@@ -18,7 +18,7 @@ Docker is looking for a file called `Dockerfile` in the specified directory.
 
 ## Run the container
 
-Use `docker run` to run the container. 
+Use `docker run` to run the container.
 
 `-w` sets the working directory in the container's file system.
 

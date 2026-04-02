@@ -3,4 +3,3 @@ sudo docker run -v /home/mbexegc2/projects/esciencelab/rocrate-to-pages/ro-crate
     -w /tmp \
     -it \
     rocrate-preview:latest
-

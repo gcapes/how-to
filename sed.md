@@ -8,7 +8,7 @@ This is a simplified example.
     a line with spaces and a $variable substitution
     $ echo $string > temp.txt
     ~ $ sed "/$the_string/d" temp.txt
-    ~ $ 
+    ~ $
 
 So far so good.
 
@@ -17,7 +17,7 @@ However, the actual string in the real problem is this:
 
 So I can't use forward slash as the delimiter without escaping all the slashes
 in the string.
-I thought I could just use a different delimiter (which I've done in the past with 
+I thought I could just use a different delimiter (which I've done in the past with
 sed (search/replace) substitutions).
 However, it doesn't work:
 
@@ -28,6 +28,4 @@ Turns out, you *can* use a different delimiter, but you need to escape it with a
 at the start:
 
     ~ $ sed "\#$the_string#d" temp.txt
-    ~ $ 
-
-
+    ~ $
